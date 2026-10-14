@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<title>Aide — SOMEWHERE</title>
+<meta name="description" content="Aide du jeu mobile SOMEWHERE : comment jouer, sauvegarde, changement de téléphone, son, batterie, bugs, contact.">
+<link rel="alternate" hreflang="en" href="help.html">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231B258E'/%3E%3Ccircle cx='45' cy='19' r='7' fill='%23FA4195'/%3E%3C/svg%3E">
+<style>
+:root{--navy:#1B258E;--royal:#405EFB;--rose:#FA4195;--ink:#1a1d33;--muted:#545b7a;--line:#e3e6f5;--wash:#f3f5ff}
+html{color-scheme:light}
+body{margin:0;background:#fff;color:var(--ink);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-text-size-adjust:100%}
+.page{max-width:42rem;margin:0 auto;padding:0 16px 48px}
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;padding:16px 0 12px;border-bottom:3px solid var(--navy)}
+.marque{font-weight:800;letter-spacing:.14em;color:var(--navy);text-decoration:none;font-size:1.05rem}
+.marque::after{content:"";display:inline-block;width:.42em;height:.42em;background:var(--rose);border-radius:50%;margin-left:.3em;vertical-align:.12em}
+nav{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.95rem}
+a{color:var(--royal);text-underline-offset:2px}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--royal);outline-offset:2px;border-radius:4px}
+h1{color:var(--navy);font-size:1.85rem;line-height:1.2;margin:1.6rem 0 .3rem}
+h2{color:var(--navy);font-size:1.22rem;line-height:1.3;margin:2.1rem 0 .5rem}
+.meta{color:var(--muted);font-size:.92rem;margin:0 0 1.2rem}
+.encadre{background:var(--wash);border-left:4px solid var(--royal);padding:12px 16px;border-radius:0 10px 10px 0;margin:1rem 0}
+ol.jouer{counter-reset:pas;list-style:none;padding:0;margin:1rem 0}
+ol.jouer li{counter-increment:pas;position:relative;padding:.1rem 0 .1rem 2.4rem;margin:.6rem 0}
+ol.jouer li::before{content:counter(pas);position:absolute;left:0;top:.15rem;width:1.7rem;height:1.7rem;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;font-size:.9rem;line-height:1.7rem;text-align:center}
+details{border:1px solid var(--line);border-radius:12px;margin:.6rem 0;background:#fff}
+details[open]{border-color:var(--royal)}
+summary{cursor:pointer;padding:14px 16px;font-weight:700;color:var(--navy);list-style:none;position:relative;padding-right:2.6rem}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:16px;top:50%;transform:translateY(-50%);color:var(--royal);font-size:1.3rem;font-weight:400}
+details[open] summary::after{content:"–"}
+details>div{padding:0 16px 12px}
+details p{margin:.4rem 0 .6rem}
+ul{padding-left:1.3rem}
+li{margin:.25rem 0}
+.contact{display:block;text-align:center;background:var(--navy);color:#fff;text-decoration:none;font-weight:700;padding:14px 18px;border-radius:12px;margin:1rem 0;word-break:break-all}
+footer{border-top:1px solid var(--line);margin-top:3rem;padding-top:1rem;color:var(--muted);font-size:.92rem}
+</style>
+</head>
+<body>
+<div class="page">
+<header class="top">
+  <a class="marque" href="index.html">SOMEWHERE</a>
+  <nav aria-label="Pages">
+    <a href="aide.html" aria-current="page">Aide</a>
+    <a href="confidentialite.html">Confidentialité</a>
+    <a href="help.html" lang="en" hreflang="en">English</a>
+  </nav>
+</header>
+
+<main>
+<h1>Aide</h1>
+<p class="meta">SOMEWHERE, version 1.0 · iPhone et Android</p>
+
+<h2 id="jouer">Comment jouer</h2>
+<ol class="jouer">
+  <li>Pose le pouce n'importe où et glisse&nbsp;: le héros suit. Un coup de pouce sec, et il bondit.</li>
+  <li>Tes techniques frappent toutes seules. Toi, tu te places&nbsp;: ne reste pas dans la foule, tourne autour.</li>
+  <li>À chaque niveau, choisis une carte&nbsp;: un nouveau style, une amélioration, un pouvoir.</li>
+  <li>Ton pouvoir se recharge&nbsp;: la pastille ronde sous ta bulle de niveau montre quand il est prêt.</li>
+  <li>Une Nuit, c'est trois lieux et leur gardien, environ six minutes. Tiens jusqu'à l'aube.</li>
+  <li>Si tu tombes, tu perds ta construction, pas ta Chambre&nbsp;: ce que tu as gagné t'y attend pour revenir plus fort.</li>
+</ol>
+
+<h2 id="questions">Questions fréquentes</h2>
+
+<details id="sauvegarde">
+<summary>Où est ma sauvegarde&nbsp;?</summary>
+<div>
+<p>Sur ton téléphone, et seulement là. Le jeu enregistre tout seul, il n'y a ni compte ni sauvegarde en ligne.
+Tu peux jouer sans connexion.</p>
+<p>Attention&nbsp;: <strong>désinstaller le jeu efface ta progression</strong>.</p>
+</div>
+</details>
+
+<details id="telephone">
+<summary>Je change de téléphone&nbsp;: je garde ma progression&nbsp;?</summary>
+<div>
+<p>Le jeu n'a pas de transfert intégré dans cette version. Ta progression peut suivre si tu passes par la copie
+complète de ton téléphone&nbsp;:</p>
+<ul>
+  <li><strong>iPhone vers iPhone</strong>&nbsp;: le transfert direct («&nbsp;Démarrage rapide&nbsp;») ou la restauration d'une
+      sauvegarde iCloud ou ordinateur.</li>
+  <li><strong>Android vers Android</strong>&nbsp;: la sauvegarde Google, si elle est activée sur l'ancien téléphone.
+      Ça dépend de la marque et des réglages&nbsp;: ce n'est pas garanti.</li>
+  <li><strong>iPhone vers Android</strong> (ou l'inverse)&nbsp;: la progression ne suit pas.</li>
+</ul>
+<p>Garde l'ancien téléphone tant que tu n'as pas vérifié que ta Chambre est bien là sur le nouveau.</p>
+</div>
+</details>
+
+<details id="son">
+<summary>Je n'entends rien</summary>
+<div>
+<ul>
+  <li>Dans le jeu&nbsp;: <strong>Réglages</strong> (l'engrenage) → <strong>Le son</strong> → monte <strong>Musique</strong>
+      et <strong>Sons</strong>.</li>
+  <li>Sur iPhone&nbsp;: vérifie le bouton <strong>silencieux</strong> sur le côté. En mode silencieux, le jeu se tait.</li>
+  <li>Monte le volume avec les boutons du téléphone <strong>pendant</strong> que le jeu est ouvert (c'est le volume
+      des médias, pas celui de la sonnerie).</li>
+  <li>Vérifie qu'un casque ou une enceinte Bluetooth n'est pas connecté sans que tu le saches.</li>
+</ul>
+</div>
+</details>
+
+<details id="batterie">
+<summary>Le jeu rame, chauffe ou vide la batterie</summary>
+<div>
+<ul>
+  <li><strong>Réglages</strong> → <strong>L'écran</strong> → <strong>Images par seconde</strong>&nbsp;: choisis
+      <strong>30</strong>. C'est le mode économie d'énergie&nbsp;: moins de chauffe, plus d'autonomie.</li>
+  <li>Ferme les autres applications ouvertes, puis relance le jeu.</li>
+  <li>Le mode économie d'énergie du téléphone peut aussi ralentir le jeu&nbsp;: c'est normal.</li>
+  <li>Un téléphone qui chauffe ralentit tout seul pour se protéger&nbsp;: laisse-le refroidir quelques minutes.</li>
+</ul>
+<p>Si le jeu reste lent, écris-nous avec le modèle de ton téléphone&nbsp;: ça nous aide à l'améliorer.</p>
+</div>
+</details>
+
+<details id="bug">
+<summary>Signaler un bug</summary>
+<div>
+<p>Écris-nous à <a href="mailto:daiki.ajwad@gmail.com?subject=SOMEWHERE%20-%20bug">daiki.ajwad@gmail.com</a> avec&nbsp;:</p>
+<ul>
+  <li>le modèle de ton téléphone et sa version (iOS ou Android)&nbsp;;</li>
+  <li>la version du jeu (dans les Réglages, ou sur la page du jeu dans l'App Store ou Google Play)&nbsp;;</li>
+  <li>ce que tu faisais, ce qui s'est passé, et si ça recommence&nbsp;;</li>
+  <li>une capture d'écran ou une vidéo si tu peux.</li>
+</ul>
+<p>Si ta version du jeu propose le bouton <strong>«&nbsp;Envoyer mon journal&nbsp;»</strong> dans les Réglages, utilise-le&nbsp;:
+il prépare un e-mail avec le déroulé de tes dernières Nuits (sans ton nom ni rien qui t'identifie). Rien ne part tant
+que tu n'appuies pas sur «&nbsp;Envoyer&nbsp;». Détails dans la <a href="confidentialite.html#journal">politique de
+confidentialité</a>.</p>
+<p>Si le jeu plante, un rapport technique (sans ton nom ni ton e-mail) part automatiquement pour nous aider à corriger&nbsp;:
+voir <a href="confidentialite.html#plantages">ce qu'il contient</a>.</p>
+</div>
+</details>
+
+<details id="donnees">
+<summary>Supprimer mes données</summary>
+<div>
+<p><strong>Désinstalle le jeu</strong>&nbsp;: ta progression, tes réglages et ton journal des Nuits sont effacés du
+téléphone. Le jeu n'a pas de compte, donc rien d'autre à fermer.</p>
+<p>Si tu nous as envoyé un e-mail ou ton journal et veux qu'on les efface, écris-nous&nbsp;: c'est fait sous un mois.</p>
+</div>
+</details>
+
+<details id="langue">
+<summary>Le jeu est-il en anglais&nbsp;?</summary>
+<div>
+<p>Pas encore&nbsp;: la version 1.0 est en français. L'anglais est en préparation.</p>
+</div>
+</details>
+
+<h2 id="contact">Contact</h2>
+<p>Une question, un bug, une idée&nbsp;? SOMEWHERE est fait par une seule personne, qui lit tout.</p>
+<a class="contact" href="mailto:daiki.ajwad@gmail.com?subject=SOMEWHERE">daiki.ajwad@gmail.com</a>
+<p class="meta">Réponse en général sous quelques jours.</p>
+</main>
+
+<footer>
+  <p>SOMEWHERE · Ajwad Daiki, France<br>
+  <a href="index.html">Accueil</a> · <a href="confidentialite.html">Politique de confidentialité</a> · <a href="help.html" lang="en" hreflang="en">Help (English)</a></p>
+</footer>
+</div>
+</body>
+</html>
